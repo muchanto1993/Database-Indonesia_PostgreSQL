@@ -1,0 +1,8 @@
+# create container
+docker run -d \
+--name postgres-db \
+-e POSTGRES_USER=admin \
+-e POSTGRES_PASSWORD=B@ndung123 \
+-e POSTGRES_DB=DB_Indonesia \
+-p 5432:5432 \
+postgres
